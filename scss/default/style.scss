@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #222;
+}
+
+$x: 10rem;
+$y: 10rem;
+$color-fondo: #8062FF;
+$tam-fuente: 4rem;
+.contenedor {
+    display: flex;
+    flex-flow: row wrap;
+    .caja {
+        margin: 5px;
+        width: $x;
+        height: $y;
+        background: $color-fondo;
+        display: flex;
+        flex-wrap: row;
+        justify-content: center;
+        align-items: center;
+        font-size: $tam-fuente;
+    }
+}
